@@ -186,7 +186,7 @@ hr {
   outline: 0;
 }
 
-@media only screen and (max-width: 749px) {
+@media only screen and (max-width: 730px) {
   .hamburger {
     display: block;
     border: 0;
