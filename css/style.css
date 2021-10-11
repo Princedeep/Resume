@@ -1,0 +1,377 @@
+/*****************Global ***********************/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+img {
+  width: 300px;
+}
+
+a {
+  color: #153b50;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 55px;
+}
+h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+h1,
+h2 {
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+
+  margin: 0px;
+}
+
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.item-details h3 + p {
+  font-style: italic;
+}
+
+.item-details h3 ~ p {
+  margin: 0;
+}
+
+.divider > section {
+  border-bottom: 1px solid #343434;
+  padding: 25px 0;
+}
+
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+/* ***************Navigation************ */
+
+.top-section {
+  /* background-color: #1c1d25; */
+  background-image: url(/images/back_2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: rgb(45, 23, 105);
+  padding-top: 10px;
+  font-size: 40px;
+  font-family: "Caveat", cursive;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  max-width: 1200px;
+  width: 85%;
+  justify-content: space-around;
+  font-size: 10px;
+  margin-left: 700px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 2px;
+}
+
+.top-area {
+  display: flex;
+
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+.button {
+  width: 140px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: rgb(117, 173, 238);
+  text-align: center;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.btn-cont {
+  display: flex;
+}
+
+.btn {
+  text-decoration: none;
+  color: rgb(45, 23, 105);
+  font-weight: 400;
+}
+
+.btn-2 {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: #7c68f0;
+}
+
+.button:active {
+  background-color: darkgray;
+}
+
+.socials {
+  padding-bottom: 130px;
+}
+
+.social {
+  margin: 20px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(45, 23, 105);
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.link:hover {
+  color: rgb(56, 20, 216);
+}
+.hamburger {
+  display: none;
+}
+
+.hamburger:focus {
+  outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    /* color: black; */
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+  }
+
+  #index {
+    max-height: 1300px;
+  }
+
+  nav ul {
+    display: none;
+
+    margin: 0px;
+  }
+
+  nav ul.show {
+    display: block;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+/* ************************************************ */
+
+/*****************Profile ***********************/
+
+header {
+  background: #2f3061;
+  color: #f7fff7;
+}
+header p {
+  text-align: justify;
+}
+
+/*****************Projects ***********************/
+
+.projects {
+  background: #feeafa;
+}
+
+.projects a {
+  color: #2f3061;
+}
+
+.projects .btn {
+  color: #f7fff7;
+  background: #2f3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.projects btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+.project-item {
+  overflow: hidden;
+}
+.project-item img {
+  /* float: left; */
+  height: auto;
+  margin-right: 20px;
+  max-width: 200px;
+  width: 50%;
+}
+
+.project-item h3 {
+  margin-top: 0;
+}
+
+.project-item p {
+  text-align: justify;
+}
+/*****************Work Experience ***********************/
+
+.work-experience {
+  background: #a1c6d7;
+}
+
+.job-summary p {
+  padding-top: 3px;
+  font-size: medium;
+  margin-left: 25px;
+}
+
+.job-summary li {
+  text-align: justify;
+}
+/*****************Education ***********************/
+
+.education {
+  background-image: url(../images/edu.jpg);
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
+}
+
+.education p {
+  width: 60%;
+}
+
+/*****************Contact ***********************/
+footer {
+  background: #343434;
+  color: #f7fff7;
+  /* text-align: center; */
+}
+
+footer a {
+  color: #f7fff7;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*Responsive*/
+/*************************************************************/
+
+@media screen and (min-width: 750px) {
+  .project-item img {
+    float: left;
+    height: auto;
+    margin-right: 20px;
+    max-width: 200px;
+    width: 50%;
+  }
+
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+
+  .contact-list {
+    display: flex;
+    justify-content: space-center;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  h1 {
+    font-size: 75px;
+    line-height: 0.9;
+  }
+
+  h2 {
+    line-height: 1;
+  }
+}
