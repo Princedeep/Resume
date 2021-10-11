@@ -90,16 +90,15 @@ h3 {
 nav {
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
 }
 
 nav ul {
   display: flex;
   list-style-type: none;
-  max-width: 1000px;
-  width: 85%;
   justify-content: space-around;
   font-size: 10px;
-  margin-left: 900px;
+  margin-right: 10px;
 }
 
 nav ul li {
