@@ -186,39 +186,9 @@ hr {
   outline: 0;
 }
 
-@media only screen and (max-width: 730px) {
-  .hamburger {
-    display: block;
-    border: 0;
-    background-color: transparent;
-    /* color: black; */
-    font-size: 30px;
-    margin: 20px;
-    align-self: flex-end;
-  }
-
-  #index {
-    max-height: 1300px;
-  }
-
-  nav ul {
-    display: none;
-
-    margin: 0px;
-  }
-
-  nav ul.show {
-    display: block;
-  }
-
-  nav {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .logo {
-    display: none;
-  }
-}
+/* @media only screen and (max-width: 730px) {
+ 
+} */
 
 /* ************************************************ */
 
@@ -366,7 +336,7 @@ footer a {
   }
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 730px) {
   h1 {
     font-size: 75px;
     line-height: 0.9;
@@ -374,5 +344,37 @@ footer a {
 
   h2 {
     line-height: 1;
+  }
+  
+   .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    /* color: black; */
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+  }
+
+  #index {
+    max-height: 1300px;
+  }
+
+  nav ul {
+    display: none;
+
+    margin: 0px;
+  }
+
+  nav ul.show {
+    display: block;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .logo {
+    display: none;
   }
 }
