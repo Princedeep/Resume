@@ -96,7 +96,7 @@ nav ul {
   display: flex;
   list-style-type: none;
   max-width: 1200px;
-  width: 85%;
+  width: 60%;
   justify-content: space-around;
   font-size: 10px;
   margin-left: 700px;
