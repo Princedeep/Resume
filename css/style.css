@@ -233,9 +233,9 @@ header p {
 }
 .project-item img {
   /* float: left; */
-  height: auto;
+  height: 130px;
   margin-right: 20px;
-  max-width: 200px;
+  max-width: 130px;
   width: 50%;
 }
 
