@@ -95,11 +95,15 @@ nav {
 nav ul {
   display: flex;
   list-style-type: none;
-  max-width: 1200px;
-  width: 60%;
+  max-width: 1000px;
+  width: 85%;
   justify-content: space-around;
   font-size: 10px;
-  margin-left: 700px;
+  margin-left: 850px;
+}
+
+nav ul li {
+  padding-left: 50px;
 }
 
 .title {
@@ -315,7 +319,7 @@ footer a {
 /*Responsive*/
 /*************************************************************/
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 1000px) {
   .project-item img {
     float: left;
     height: auto;
@@ -336,7 +340,7 @@ footer a {
   }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 999px) {
   h1 {
     font-size: 75px;
     line-height: 0.9;
