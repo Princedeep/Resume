@@ -77,7 +77,7 @@ h3 {
 
 .top-section {
   /* background-color: #1c1d25; */
-  background-image: url(../images/background.jpg);
+  background-image: url(images/background.jpg);
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
